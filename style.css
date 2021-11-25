@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #eee;
+    padding-bottom: 70px;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.text{
+    font-size: 13vw;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke: transparent 1.5vw;
+    text-transform: uppercase;
+    letter-spacing: 2vw;
+    background: linear-gradient(90deg, black 50%,red 50.1%);
+    background-size: 40px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: #eee;
+    text-shadow: 0 10px 25px rgba(0, 0, 0, .5);
+    animation: text 1s linear infinite;
+
+}
+
+@keyframes text {
+    0%{
+        background-position-x: 0;
+    }
+    0%{
+        background-position-x: -40px;
+    }
+}
