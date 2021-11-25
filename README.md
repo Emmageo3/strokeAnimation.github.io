@@ -1,3 +1,3 @@
-# stroke.github.io
+# strokeAnimation.github.io
 
 css animation
